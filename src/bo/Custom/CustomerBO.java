@@ -10,7 +10,6 @@ public interface CustomerBO {
 
     public boolean addCustomer(CustomerDTO dto) throws SQLException, ClassNotFoundException ;
 
-
     public boolean updateCustomer(CustomerDTO dto) throws SQLException, ClassNotFoundException ;
 
     public boolean existCustomer(String id) throws SQLException, ClassNotFoundException;
