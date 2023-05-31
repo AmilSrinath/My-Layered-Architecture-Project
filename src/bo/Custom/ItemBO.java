@@ -1,12 +1,12 @@
 package bo.Custom;
 
-import model.CustomerDTO;
+import bo.SuperBO;
 import model.ItemDTO;
 
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-public interface ItemBO {
+public interface ItemBO extends SuperBO {
     public ArrayList<ItemDTO> getAllItem() throws SQLException, ClassNotFoundException;
 
     public boolean addItem(ItemDTO dto) throws SQLException, ClassNotFoundException ;
