@@ -1,4 +1,4 @@
-package bo.Custom;
+package bo;
 
 public interface SuperBO {
 
