@@ -1,5 +1,6 @@
 package controller;
 
+import Entity.Customer;
 import bo.CustomerBOImpl;
 import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.JFXTextField;
