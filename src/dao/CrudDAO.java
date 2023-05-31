@@ -1,8 +1,5 @@
 package dao;
 
-import dao.Custom.ItemDAO;
-import model.ItemDTO;
-
 import java.sql.SQLException;
 import java.util.ArrayList;
 

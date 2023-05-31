@@ -5,8 +5,6 @@ import bo.ItemBOImpl;
 import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.JFXTextField;
 import dao.Custom.DAOFactory;
-import dao.Custom.ItemDAO;
-import dao.Custom.Impl.ItemDAOImpl;
 import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -29,7 +27,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 
 /**
- * @author : Sanu Vithanage
+ * @author : Amil Srinath
  * @since : 0.1.0
  **/
 
